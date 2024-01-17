@@ -1,0 +1,46 @@
+﻿<Window x:Class="Salon.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Salon"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition Width="5*"/>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel>
+            <Image Height="100" Source="/apple-touch-icon.png" Stretch="Fill" Width="100"/>
+            <Button Height="50" Background="Red" Foreground="White" Click="Button_Click">
+                Покупатели
+            </Button>
+            <Button Height="50" Background="Red" Foreground="White" Click="Button_Click_1">Марки</Button>
+            <Button Height="50" Background="Red" Foreground="White">Сотрудники</Button>
+            <Button Height="50" Background="Red" Foreground="White">Автомобили</Button>
+            <Button Height="50" Background="Red" Foreground="White">Продажи</Button>
+        </StackPanel>
+
+        <Grid Grid.Column="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="101"/>
+                <RowDefinition Height="28*"/>
+                <RowDefinition Height="379*"/>
+            </Grid.RowDefinitions>
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20">Автосалон</TextBlock>
+            <StackPanel Grid.Column="1" Grid.Row="1" Orientation="Horizontal">
+                <TextBox Width="400" Margin="5"></TextBox>
+
+                <Button Background="Red" Foreground="White" Margin="0,0,5,0" Width="60">Поиск</Button>
+
+                <Button Background="Red" Foreground="White" Margin="0,0,5,0">Добавить</Button>
+
+            </StackPanel>
+            <Frame NavigationUIVisibility="Hidden"  x:Name="frame"  Grid.Column="1" Grid.Row="2"></Frame>
+        </Grid>
+
+
+    </Grid>
+</Window>
