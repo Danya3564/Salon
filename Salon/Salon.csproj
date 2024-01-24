@@ -55,8 +55,17 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="RedactorAvto.xaml.cs">
+      <DependentUpon>RedactorAvto.xaml</DependentUpon>
+    </Compile>
     <Compile Include="RedactorMarka.xaml.cs">
       <DependentUpon>RedactorMarka.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RedactorProdagi.xaml.cs">
+      <DependentUpon>RedactorProdagi.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ReddactorSotrudnik.xaml.cs">
+      <DependentUpon>ReddactorSotrudnik.xaml</DependentUpon>
     </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -74,7 +83,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="RedactorAvto.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="RedactorMarka.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RedactorProdagi.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ReddactorSotrudnik.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

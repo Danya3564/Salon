@@ -35,5 +35,20 @@ namespace Salon
 
             frame.Content = new RedactorMarka();
         }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            frame.Content = new ReddactorSotrudnik();
+        }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            frame.Content = new RedactorAvto();
+        }
+
+        private void Button_Click_4(object sender, RoutedEventArgs e)
+        {
+            frame.Content = new RedactorProdagi();
+        }
     }
 }

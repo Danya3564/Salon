@@ -18,9 +18,9 @@
                 Покупатели
             </Button>
             <Button Height="50" Background="Red" Foreground="White" Click="Button_Click_1">Марки</Button>
-            <Button Height="50" Background="Red" Foreground="White">Сотрудники</Button>
-            <Button Height="50" Background="Red" Foreground="White">Автомобили</Button>
-            <Button Height="50" Background="Red" Foreground="White">Продажи</Button>
+            <Button Height="50" Background="Red" Foreground="White" Click="Button_Click_2">Сотрудники</Button>
+            <Button Height="50" Background="Red" Foreground="White" Click="Button_Click_3">Автомобили</Button>
+            <Button Height="50" Background="Red" Foreground="White" Click="Button_Click_4">Продажи</Button>
         </StackPanel>
 
         <Grid Grid.Column="2">
